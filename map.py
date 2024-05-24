@@ -7,7 +7,7 @@ from opencage.geocoder import OpenCageGeocode
 st.title("OpenStreetMap with Streamlit")
 
 # Set your OpenCage API key
-opencage_api_key = st.secrets["open_cage"]["api_key"]
+opencage_api_key = st.secrets["open_cage_api_key"]
 geocoder = OpenCageGeocode(opencage_api_key)
 
 # Set a default location (Lisbon, near Alameda)
